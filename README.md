@@ -1,0 +1,1 @@
+Django CRM with allAuth
