@@ -20,7 +20,7 @@ export const formRegisterSchema = z.object({
     .string()
     .regex(
       /^[1-9]{2}[9][0-9]{8}$/,
-      'O número deve estar no formato 19 9 9999 9999 (sem espaços)',
+      'O número deve estar no formato 31999999999(sem espaços)',
     ),
   empresa: z.string().min(5, 'Por favor, insira o nome da empresa'),
   password: z

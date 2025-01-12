@@ -40,7 +40,7 @@ const addNewEmpresaSchema = z.object({
     .string()
     .regex(
       /^[1-9]{2}[9]?[0-9]{8}$/,
-      'O telefone deve estar no formato 19 999999999 ou 19 9 99999999',
+      'O telefone deve estar no formato 31999999999(sem espaços)',
     ),
   // status: z.string().optional(),
 })
