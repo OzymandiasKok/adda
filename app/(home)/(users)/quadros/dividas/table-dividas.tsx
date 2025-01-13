@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
 const headerDividas = [
+  { content: 'Matrícula:' },
   { content: 'Nome da instituição:' },
   { content: 'Nome do Devedor' },
   { content: 'Modalidade' },
@@ -26,7 +27,9 @@ const rowsDividas = [
       {
         value: '',
         inputType: 'text',
-        placeholder: 'Insira a instituição',
+        placeholder: 'Insira a matrícula',
+        pattern: '\\d*', // Apenas números
+        title: 'Apenas números são permitidos'
       },
       { value: '', inputType: 'text', placeholder: 'Insira o devedor' },
       { value: '', inputType: 'text', placeholder: 'Insira a modalidade' },
