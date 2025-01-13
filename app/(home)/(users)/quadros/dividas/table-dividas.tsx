@@ -254,7 +254,7 @@ export function TableDividas() {
       <Tittle>Quadro Safra - Dívidas</Tittle>
 
       <div className="flex flex-col">
-        <div className="relative -bottom-1 left-0.5 z-50 w-[552px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
+        <div className="relative -bottom-1 left-0.5 z-50 w-[600px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
           Dívidas
         </div>
         <div className="flex flex-col gap-5">
@@ -277,7 +277,7 @@ export function TableDividas() {
       </div>
 
       <div className="flex flex-col">
-        <div className="relative -bottom-1 left-0.5 z-50 w-[552px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
+        <div className="relative -bottom-1 left-0.5 z-50 w-[600px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
           Dívidas de terra
         </div>
         <div className="flex flex-col gap-5">
@@ -300,7 +300,7 @@ export function TableDividas() {
       </div>
 
       <div className="flex flex-col">
-        <div className="relative -bottom-1 left-0.5 z-50 w-[552px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
+        <div className="relative -bottom-1 left-0.5 z-50 w-[640px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
           Saldo a pagar para fornecedores
         </div>
 
@@ -324,7 +324,7 @@ export function TableDividas() {
       </div>
 
       <div className="flex flex-col">
-        <div className="relative -bottom-1 left-0.5 z-50 w-[552px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
+        <div className="relative -bottom-1 left-0.5 z-50 w-[640px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
           Financiamento Insumos
         </div>
 
