@@ -9,7 +9,7 @@ export function SaveData() {
   const [isLoading, setIsLoading] = useState(false)
 
   const handleSaveTables = () => {
-    console.log(tableGroup)
+    console.log('Dados enviados:', tableGroup)  // Log dos dados antes de enviar
     setIsLoading(true)
 
     fetch('https://palpiteiro.pro/api/tabela/', {
@@ -20,18 +20,18 @@ export function SaveData() {
       body: JSON.stringify(tableGroup),
     })
       .then((response) => {
-        console.log('aq', response)
+        console.log('Resposta da requisição:', response)  // Log da resposta
         if (!response.ok) {
           throw new Error('Erro ao salvar dados')
         }
         return response.json()
       })
       .then((data) => {
-        console.log('Sucesso:', data)
+        console.log('Dados recebidos do backend:', data)  // Log dos dados recebidos
         toast.success('Dados salvos com sucesso!')
       })
       .catch((error) => {
-        console.error('Erro:', error)
+        console.error('Erro na requisição:', error)  // Log de erro completo
         toast.error(
           'Houve um erro ao tentar salvar, tente novamente ou contate o suporte.',
         )
