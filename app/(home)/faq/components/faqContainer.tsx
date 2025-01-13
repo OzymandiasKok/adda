@@ -47,7 +47,7 @@ const faqs = [
     answer: 'O empreendimento deve ter pelo menos 50% da carteira vendida.',
   },
   {
-    question: 'Quais tipos de garantia são oferecidas para operações Agropecuárias?',
+    question: 'Quais tipos de garantia são oferecidas para operações agropecuárias?',
     answer:
       'Nas operações agropecuárias, conseguimos trabalhar com garantias do tipo de Alienação Fiduciária e Penhor de Grãos.',
   },
