@@ -20,14 +20,14 @@ export function SobreNos() {
           permitiu continuar captando recursos de forma eficiente e segura,
           sempre antecipando-se às necessidades do setor. A combinação de
           expertise e uma extensa rede de contatos estratégicos tem sido
-          essencial para identificar oportunidades
+          essencial para identificar oportunidades.
         </p>
         <p className="text-justify">
           A abordagem ágil e competitiva da Adda Partners tem sido fundamental
           para que seus clientes alcancem o capital necessário, mesmo em
           cenários desafiadores. A empresa segue fortalecendo seu papel no
           mercado, oferecendo soluções personalizadas que maximizam o valor para
-          seus parceiros, impulsionando o crescimento de empresas e projetos
+          seus parceiros, impulsionando o crescimento de empresas e projetos.
         </p>
       </div>
     </div>

@@ -11,12 +11,12 @@ const headerDividas = [
   { content: 'Nome da instituição:' },
   { content: 'Nome do Devedor' },
   { content: 'Modalidade' },
-  { content: 'Moeda' },
+  { content: 'moeda- dólar, real, euro e etc' },
   { content: 'Taxa % (a.a)' },
   { content: 'Vencimento' },
-  { content: 'Amortização' },
+  { content: 'amortização- mensal, semanal, semestral, bimestral, anual' },
   { content: 'Valor total (R$)' },
-  { content: 'Garantias' },
+  { content: 'garantias- reais, alienações fiduciárias,  penhor de grãos' },
   { content: 'Anexar contrato' },
 ]
 

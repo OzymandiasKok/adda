@@ -47,7 +47,7 @@ const faqs = [
     answer: 'O empreendimento deve ter pelo menos 50% da carteira vendida.',
   },
   {
-    question: 'Quais tipos de garantia são oferecidas para o agro?',
+    question: 'Quais tipos de garantia são oferecidas para operações Agropecuárias?',
     answer:
       'Nas operações agropecuárias, conseguimos trabalhar com garantias do tipo de Alienação Fiduciária e Penhor de Grãos.',
   },
@@ -65,7 +65,7 @@ const faqs = [
   {
     question: 'Por que emitir um CRA?',
     answer:
-      'A emissão de Certificados de Recebíveis do Agronegócio (CRA) oferece uma alternativa estratégica para empresas e empreendedores do setor agrícola que buscam financiar suas operações e expandir seus negócios.\nAo emitir CRAs, as empresas conseguem acessar capital de longo prazo de forma eficiente, sem depender exclusivamente de empréstimos bancários, que geralmente envolvem custos mais elevados e condições mais específicas.\nEsse título também permite a diversificação das fontes de financiamento, reduzindo a dependência do crédito bancário, proporcionando maior flexibilidade no planejamento financeiro.\nAlém disso, o CRA é vantajoso para o agronegócio, pois as condições de financiamento podem ser ajustadas às especificidades do setor, como a sazonalidade e as flutuações nas receitas.',
+      'A emissão de Certificados de Recebíveis do Agronegócio (CRA) oferece uma alternativa estratégica para empresas e empreendedores do setor agrícola que buscam financiar suas operações e expandir seus negócios.\nAo emitir CRAs, as empresas conseguem acessar capital de longo prazo de forma eficiente, sem depender exclusivamente de empréstimos bancários, que geralmente envolvem custos mais elevados e condições mais específicas.\nEsse título também permite a diversificação das fontes de financiamento, reduzindo a dependência do crédito bancário, proporcionando maior flexibilidade no planejamento financeiro.\nAlém disso, o CRA é vantajoso para o agronegócio, pois as condições de financiamento podem ser ajustadas às especificidades do setor, com as sazonalidades e as flutuações nas receitas.',
   },
   {
     question: 'Qual o fluxo da operação de um CRI?',
@@ -83,14 +83,14 @@ const faqs = [
       title: 'CRA',
       subtitle: {
         empresas: [
-          'apresentação institucional',
-          'endividamento',
-          'demonstrações financeiras dos últimos 3 anos',
+          'Apresentação institucional',
+          'Endividamento',
+          'Demonstrações financeiras dos últimos 3 anos',
         ],
         pessoaFisica: [
-          'kit banco',
-          'história do produtor',
-          'endividamento e detalhamento de safras',
+          'Kit banco',
+          'História do produtor',
+          'Endividamento e detalhamento de safras',
         ],
       },
     },

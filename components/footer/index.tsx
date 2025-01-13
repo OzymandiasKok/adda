@@ -56,7 +56,7 @@ export function Footer() {
               Endereço: Av Dr. David Beneditto Otonni 252, Jardim dos Estados,
               Poços de Caldas - MG
             </span>
-            <a href="" className="">
+            <a href="https://www.linkedin.com/company/adda-partners/" className="">
               {<Linkedinicon />}
             </a>
           </div>

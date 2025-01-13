@@ -21,7 +21,7 @@ export function PartnerContainer() {
       </div>
 
       <div className="mb-32 mt-36">
-        <CTALink path="/faq" text="Saiba MAIS!" type="body" />
+        <CTALink path="/faq" text="Saiba mais!" type="body" />
       </div>
     </div>
   )
