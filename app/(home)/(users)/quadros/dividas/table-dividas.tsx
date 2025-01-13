@@ -31,6 +31,7 @@ const rowsDividas = [
         pattern: '\\d*', // Apenas números
         title: 'Apenas números são permitidos'
       },
+      { value: '', inputType: 'text', placeholder: 'Insira a instituição' },
       { value: '', inputType: 'text', placeholder: 'Insira o devedor' },
       { value: '', inputType: 'text', placeholder: 'Insira a modalidade' },
       { value: '', inputType: 'text', placeholder: '(dólar, euro, real...)' },
@@ -253,7 +254,7 @@ export function TableDividas() {
   }
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-11">
       <Tittle>Quadro Safra - Dívidas</Tittle>
 
       <div className="flex flex-col">
