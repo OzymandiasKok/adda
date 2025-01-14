@@ -22,7 +22,7 @@ const operations = [
     types: [
       'Estruturadora - ADDA',
       'Securitizadora: Blox',
-      'Depositaria - Laqus',
+      'Depositária - Laqus',
     ],
     descriptions: [
       'Taxa: CDI +6,5%',

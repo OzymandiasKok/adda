@@ -50,7 +50,7 @@ const process = [
     icon: handsIcon,
     title: 'Fechamento',
     description:
-      'Quando distruibuida, ocorre a liquidação da operação conforme acordado anteriormente.',
+      'Quando distribuída, ocorre a liquidação da operação conforme acordado anteriormente.',
   },
 ]
 

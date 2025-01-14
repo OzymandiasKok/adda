@@ -9,7 +9,7 @@ export function HeroSobre() {
       </h2>
 
       <p className="w-[70%] text-center text-3xl">
-        Há 4 anos trabalhando em busca de simplificar o acesso às oportunidades
+        Há 5 anos trabalhando em busca de simplificar o acesso às oportunidades
         do mercado de capitais.
       </p>
     </HeroContainer>
