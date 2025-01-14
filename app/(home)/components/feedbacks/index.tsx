@@ -1,12 +1,14 @@
 import { Tittle } from '@/components/tittle'
-import { FeedbacksCarousel } from './carousel'
+//import { FeedbacksCarousel } from './carousel'
 
 export function Feedbacks() {
-  return (
+ /* return (
     <div className="p-11 pb-0">
       <Tittle>Relatos de nossos clientes</Tittle>
 
-      <FeedbacksCarousel />
+      <FeedbacksCarousel /> 
     </div>
   )
+  */
+ return null
 }
