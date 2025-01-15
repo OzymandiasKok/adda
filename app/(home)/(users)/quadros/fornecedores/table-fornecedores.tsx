@@ -26,8 +26,8 @@ const rowsFornecedores = [
         inputType: 'text',
         placeholder: 'Insira o nome',
       },
-      { value: '', inputType: 'text', placeholder: '-' },
-      { value: '', inputType: 'text', placeholder: '-' },
+      { value: '', inputType: 'number', placeholder: '-' },
+      { value: '', inputType: 'date', placeholder: '-' },
       { value: '', inputType: 'number', placeholder: '-' },
     ],
   },
@@ -142,7 +142,7 @@ export function TableFornecedores() {
 
       <div className="flex flex-col">
         <div className="relative -bottom-1 left-0.5 z-50 w-[552px] rounded-t-md bg-themeColor p-2 text-center font-bold text-white">
-          Principais Fornecedores Fertilizantev
+          Principais Fornecedores Fertilizante
         </div>
         <div className="flex flex-col gap-5">
           <TableContainer

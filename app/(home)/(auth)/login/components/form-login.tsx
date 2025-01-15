@@ -52,14 +52,17 @@ export function FormLogin() {
         }
 
         if (result.data) {
-          document.cookie = `@adda-partners:token=${result.data}; path=/; secure; SameSite=Strict`
+          document.cookie = `@adda-partners:token=${result.data}; path=/; secure; SameSite=Strict`;
           toast.success(
             'Login feito com sucesso! Você vai ser redirecionado em poucos segundos.',
-          )
+          );
           setTimeout(() => {
-            router.push('/')
-          }, 1000)
-        } else {
+            router.replace('/');
+            window.location.reload();
+          }, 1000);
+        }
+        
+        else {
           console.error('Token não encontrado na resposta')
         }
       })

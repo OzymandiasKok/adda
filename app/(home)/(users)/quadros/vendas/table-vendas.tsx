@@ -27,8 +27,8 @@ const rowsClientes = [
         placeholder: 'Insira o nome',
       },
       { value: '', inputType: 'text', placeholder: 'Insira o produto' },
-      { value: '', inputType: 'text', placeholder: '-' },
       { value: '', inputType: 'number', placeholder: '-' },
+      { value: '', inputType: 'date', placeholder: '-' },
     ],
   },
 ]
