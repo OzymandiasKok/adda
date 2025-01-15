@@ -66,7 +66,7 @@ export function FormRegister() {
             'Login feito com sucesso! Você vai ser redirecionado em poucos segundos.',
           );
           setTimeout(() => {
-            router.replace('/');
+            router.replace('https://addapartners.com.br');
             window.location.reload();
           }, 1000);
         }
